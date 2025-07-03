@@ -7,6 +7,7 @@ import {
   useThreadListManager,
   useThreadManager,
 } from "@thesysai/genui-sdk";
+import { themePresets } from '@crayonai/react-ui';
 import { 
   getThreadList,
   deleteThread as deleteThreadService,
@@ -114,7 +115,7 @@ export default function ChatInterface() {
     <C1Chat
       threadManager={threadManager}
       threadListManager={threadListManager}
-      theme={{ mode: "dark" }}
+      theme={{...themePresets.classic, mode: "dark" }}
     />
   );
 } 
