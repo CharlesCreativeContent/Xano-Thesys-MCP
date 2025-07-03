@@ -13,13 +13,13 @@ export THESYS_API_KEY=<your-api-key>
 Install dependencies:
 
 ```bash
-npm i
+pnpm i
 ```
 
 Then, run the development server:
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
