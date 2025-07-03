@@ -1,4 +1,7 @@
-# C1 App Template
+# Xano C1 App Template
+
+<img src="https://shawnimages.netlify.app/images/xanochat.png"><img/>
+
 
 This is a [C1 by Thesys](https://thesys.dev) project bootstrapped with `create-next-app`
 
