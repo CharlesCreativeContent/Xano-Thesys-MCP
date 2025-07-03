@@ -113,6 +113,8 @@ export default function ChatInterface() {
 
   return (
     <C1Chat
+      agentName=""
+      logoUrl='/favicon.ico'
       threadManager={threadManager}
       threadListManager={threadListManager}
       theme={{...themePresets.classic, mode: "dark" }}

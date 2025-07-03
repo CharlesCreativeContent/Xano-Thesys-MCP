@@ -9,7 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@crayonai/react-ui": "^0.7.10",
+    "@crayonai/react-core": "^0.7.6",
+    "@crayonai/react-ui": "^0.7.16",
     "@crayonai/stream": "^0.6.4",
     "@modelcontextprotocol/sdk": "^1.12.1",
     "@thesysai/genui-sdk": "^0.6.18",

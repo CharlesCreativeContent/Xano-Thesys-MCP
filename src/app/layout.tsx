@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "C1 Chat",
-  description: "Generative UI App powered by Thesys C1",
+  title: "Xano Chat",
+  description: "Xano Generative UI App powered by Thesys C1",
 };
 
 export default function RootLayout({
