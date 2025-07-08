@@ -11,6 +11,7 @@ First, generate a new API key from [Thesys Console](https://chat.thesys.dev/cons
 
 ```bash
 export THESYS_API_KEY=<your-api-key>
+export MCP_SSE_URL=<your-mcp_sse_url>
 ```
 
 Install dependencies:
