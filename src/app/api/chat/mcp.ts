@@ -27,7 +27,7 @@ export class MCPClient {
       const command = "pnpx";
       const args = [
         "mcp-remote",
-        "https://x6if-wu0q-dtak.n7.xano.io/x2/mcp/8PYbfPeh/mcp/sse",
+        process.env.MCP_SSE_URL,
         process.cwd(),
       ];
 
