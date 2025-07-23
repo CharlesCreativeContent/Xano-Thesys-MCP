@@ -6,8 +6,9 @@ import {
   C1Chat,
   useThreadListManager,
   useThreadManager,
+  ThemeProvider
 } from "@thesysai/genui-sdk";
-import { themePresets } from '@crayonai/react-ui';
+import { Theme, themePresets } from '@crayonai/react-ui';
 import { 
   getThreadList,
   deleteThread as deleteThreadService,
@@ -17,6 +18,7 @@ import {
   updateMessage as updateMessageService
 } from "@/app/services/threadService";
 import { useAuth } from "@/contexts/AuthContext";
+import "@crayonai/react-ui/styles/index.css";
 
 export default function ChatInterface() {
   const { isAuthenticated, user } = useAuth();
@@ -111,13 +113,25 @@ export default function ChatInterface() {
     );
   }
 
+  const brandTheme : Theme = {...themePresets.classic.darkTheme,
+      defaultChartPalette:  [" #fdc500", " #4682B4", " #00a8e8", " rgb(171, 58, 58)", " #0D1217",],
+      pieChartPalette:  [" #4682B4", " #fdc500", " #00a8e8", " rgb(171, 58, 58)", " #0D1217",],
+      barChartPalette: [" #fdc500", " #4682B4", " #00a8e8", " rgb(171, 58, 58)", " #0D1217",],
+      lineChartPalette: [" #fdc500", " #4682B4", " #00a8e8", " rgb(171, 58, 58)", " #0D1217",],
+      areaChartPalette: [" #fdc500", " #4682B4", " #00a8e8", " rgb(171, 58, 58)", " #0D1217",],
+      radarChartPalette: [" #fdc500", " #4682B4", " #00a8e8", " rgb(171, 58, 58)", " #0D1217",],
+      radialChartPalette: [" #fdc500", " #4682B4", "  #00a8e8", "rgb(171, 58, 58)", " #0D1217",],
+  }
+
   return (
+    <ThemeProvider theme={brandTheme}>
     <C1Chat
       agentName=""
       logoUrl='/favicon.ico'
       threadManager={threadManager}
       threadListManager={threadListManager}
-      theme={{...themePresets.classic, mode: "dark" }}
     />
+    </ThemeProvider>
+
   );
 } 

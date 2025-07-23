@@ -85,7 +85,7 @@ c1Response.writeThinkItem({
 });
 
 const llmStream = await client.beta.chat.completions.runTools({
-  model: "c1-nightly",
+  model: "c1/anthropic/claude-3.5-sonnet/v-20250709",
   messages: messages,
   tools: mcpClient.tools.map((tool) => ({
     type: "function",
