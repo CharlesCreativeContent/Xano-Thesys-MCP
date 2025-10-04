@@ -38,3 +38,33 @@ To learn more about Thesys C1, take a look at the [C1 Documentation](https://doc
 ## One-Click Deploy with Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCharlesCreativeContent%2FXano-Thesys-MCP&env=THESYS_API_KEY&envDescription=Thesys+Generative+UI+API+key+can+be+found+in+the+Thesys+console&envLink=https%3A%2F%2Fchat.thesys.dev%2Fconsole%2Fkeys&env=+XANO_AUTH_KEY&env=+XANO_MCP_KEY&demo-title=C1+Generative+UI+API&demo-description=C1+Generative+UI+API+by+Thesys+is+designed+to+create+dynamic+and+intelligent+user+interfaces.+It+leverages+large+language+models+%28LLMs%29+to+generate+UI+components+in+real-time%2C+adapting+to+user+input+and+context.+Developers+can+integrate+C1+into+their+applications+to+enhance+user+engagement+with+visually+rich+and+responsive+interfaces.&demo-url=https%3A%2F%2Fchat.thesys.dev&demo-image=https%3A%2F%2Fgithub.com%2FCharlesCreativeContent%2FmyImages%2Fblob%2Fmain%2Fimages%2FC1Hero.png%3Fraw%3Dtrue&teamSlug=charlescreativecontents-projects)
+
+
+## More Projects
+
+<table bordercolor="#66b2b2">
+  
+  <tr>
+    <td width="33.3%"  style="align:center;" valign="top">
+<a target="_blank" href="https://github.com/CharlesCreativeContent/runware-pokemon-generator">Runware Pokémon Generator</a>
+        <br />
+      <a target="_blank" href="https://github.com/CharlesCreativeContent/runware-pokemon-generator">
+            <img src="https://github.com/CharlesCreativeContent/runware-pokemon-generator/raw/main/public/runware.gif?raw=true" width="100%"  alt="Runware Pokémon Generator"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/CharlesCreativeContent/CoinGecko-Thesys-MCP">CoinGecko-Thesys-MCP</a>
+      <br />
+        <a target="_blank" href="https://github.com/CharlesCreativeContent/CoinGecko-Thesys-MCP">
+          <img src="https://camo.githubusercontent.com/0dd2f60eb61954fb96f89c3c31fe17bdd70d5eede3adf617adca4db22e937638/68747470733a2f2f736861776e696d616765732e6e65746c6966792e6170702f696d616765732f436f696e4765636b6f2e676966" width="100%" alt="CoinGecko-Thesys-MCP"/>
+        </a>
+    </td>
+    <td width="33.3%" valign="top">
+<a target="_blank" href="https://github.com/CharlesCreativeContent/Demo-Day">Travel Web-Application</a>
+        <br />
+        <a target="_blank" href="https://github.com/CharlesCreativeContent/Demo-Day">
+          <img src="https://github.com/CharlesCreativeContent/CharlesCreativeContent/raw/main/images/gif1.gif?raw=true" width="100%" alt="Portfolio"/>
+        </a>
+    </td>
+  </tr>
+</table>
